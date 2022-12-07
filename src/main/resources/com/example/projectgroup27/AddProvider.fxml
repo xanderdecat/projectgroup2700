@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="751.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectgroup27.AddProviderController">
+   <children>
+      <Label layoutX="123.0" layoutY="85.0" prefHeight="17.0" prefWidth="92.0" text="VAT Number" />
+      <TextField fx:id="VATNumberInput" layoutX="212.0" layoutY="80.0" prefHeight="27.0" prefWidth="200.0" />
+      <TextField fx:id="accountNumberInput" layoutX="212.0" layoutY="108.0" prefHeight="27.0" prefWidth="200.0" />
+      <Label layoutX="106.0" layoutY="113.0" text="Accountnumber" />
+      <Label fx:id="testLbl" layoutX="129.0" layoutY="337.0" text="Activity date" />
+      <Label layoutX="126.0" layoutY="144.0" text="Streetname" />
+      <Label layoutX="111.0" layoutY="175.0" text="Housenumber" />
+      <Label layoutX="139.0" layoutY="207.0" text="ZIP code" />
+      <Label layoutX="158.0" layoutY="239.0" text="City" />
+      <Label layoutX="141.0" layoutY="271.0" text="Country" />
+      <Label layoutX="95.0" layoutY="33.0" text="Please fill in all the boxes as a new Music Provider">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="straatNameInput" layoutX="212.0" layoutY="139.0" prefHeight="27.0" prefWidth="200.0" />
+      <TextField fx:id="houseNumberInput" layoutX="212.0" layoutY="170.0" prefHeight="27.0" prefWidth="200.0" />
+      <TextField fx:id="ZIPCodeInput" layoutX="212.0" layoutY="202.0" prefHeight="27.0" prefWidth="200.0" />
+      <TextField fx:id="cityInput" layoutX="212.0" layoutY="234.0" prefHeight="27.0" prefWidth="200.0" />
+      <TextField fx:id="countryInput" layoutX="212.0" layoutY="266.0" prefHeight="27.0" prefWidth="200.0" />
+      <TextField fx:id="artistNameInput" layoutX="212.0" layoutY="298.0" prefHeight="27.0" prefWidth="200.0" />
+      <Label layoutX="139.0" layoutY="303.0" text="Artistname" />
+      <DatePicker fx:id="activityDateInput" layoutX="213.0" layoutY="333.0" prefHeight="26.0" prefWidth="200.0" />
+      <TextField fx:id="priceHourInput" layoutX="213.0" layoutY="366.0" prefHeight="27.0" prefWidth="200.0" />
+      <Label fx:id="testLbl1" layoutX="129.0" layoutY="371.0" text="Price hour" />
+      <TextField fx:id="minHoursInput" layoutX="213.0" layoutY="397.0" prefHeight="27.0" prefWidth="200.0" />
+      <Label fx:id="testLbl11" layoutX="129.0" layoutY="402.0" text="Min hours" />
+      <TextField fx:id="maxHoursInput" layoutX="213.0" layoutY="427.0" prefHeight="27.0" prefWidth="200.0" />
+      <Label fx:id="testLbl111" layoutX="129.0" layoutY="432.0" text="Max hours" />
+      <TextField fx:id="conditionsInput" layoutX="213.0" layoutY="458.0" prefHeight="59.0" prefWidth="200.0" />
+      <Label fx:id="testLbl1111" layoutX="129.0" layoutY="463.0" text="Conditions" />
+      <TextField fx:id="descriptionInput" layoutX="213.0" layoutY="523.0" prefHeight="59.0" prefWidth="200.0" />
+      <Label fx:id="testLbl11111" layoutX="129.0" layoutY="528.0" text="Description" />
+      <TextField fx:id="linkToSetInput" layoutX="213.0" layoutY="589.0" prefHeight="27.0" prefWidth="200.0" />
+      <Label fx:id="testLbl1112" layoutX="105.0" layoutY="594.0" text="Link to teaserset" />
+      <TextField fx:id="linkToPageInput" layoutX="213.0" layoutY="623.0" prefHeight="27.0" prefWidth="200.0" />
+      <Label fx:id="testLbl1113" layoutX="129.0" layoutY="628.0" text="Link to page" />
+      <Label fx:id="testLbl11131" layoutX="138.0" layoutY="660.0" text="Genre" />
+      <Button fx:id="registerMP" layoutX="186.0" layoutY="705.0" mnemonicParsing="false" text="Register as new Music Provider" />
+      <ChoiceBox layoutX="213.0" layoutY="656.0" prefHeight="26.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

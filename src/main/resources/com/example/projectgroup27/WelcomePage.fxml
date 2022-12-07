@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectgroup27.WelcomePageController">
+   <children>
+      <Label layoutX="192.0" layoutY="91.0" text="Welcome!">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginButton" layoutX="208.0" layoutY="235.0" mnemonicParsing="false" onAction="#goToLogInPage" text="Log in" />
+      <Button fx:id="newUserButton" layoutX="300.0" layoutY="235.0" mnemonicParsing="false" onAction="#goToNewUserPage" text="New user" />
+   </children>
+</AnchorPane>
